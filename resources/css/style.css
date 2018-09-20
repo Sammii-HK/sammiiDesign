@@ -146,13 +146,13 @@ video {
 }
 
 .portfolio-item-image:hover {
-	opacity: 0.5;
+	/*opacity: 0.5;
 	
 	transition: opacity 0.5s ease-in-out;
 	-webkit-transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 0.5s ease-in-out;
     -ms-transition: opacity 0.5s ease-in-out;
-    -o-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;*/
 }
 
 .portfolio--item-image h1 {
@@ -207,22 +207,24 @@ video {
 } 
 
 .portfolio-image:hover {
-	opacity: 0.9;
+	/*opacity: 0.9;
 	
 	transition: opacity 0.5s ease-in-out;
 	-webkit-transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 0.5s ease-in-out;
     -ms-transition: opacity 0.5s ease-in-out;
-    -o-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;*/
 }
 
 .hover {
-	background-image: url(../images/hover-background.png);
-	/*min-height: 340px;*/
+	/*background-image: url(../images/hover-background.png);
+	min-height: 340px;*/
+	background-color: rgba(127, 127, 127, 0.9);
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	opacity: 0;
+	
 	transition: opacity 0.5s ease-in-out, ;
 	-webkit-transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 0.5s ease-in-out;
@@ -232,7 +234,7 @@ video {
 }
 
 .hover:hover {
-	opacity: 0.9;
+	opacity: 1;
 	
 	transition: opacity 0.5s ease-in-out;
 	-webkit-transition: opacity 0.5s ease-in-out;
@@ -251,6 +253,10 @@ video {
 	text-align: center;
 }
 
+/*  images  */
+
+	/*  invites  */
+
 .degree-show-invites {
 	background-image: url(../images/unfolded-widescreen-web-crop.png);
 }
@@ -266,6 +272,8 @@ video {
 .degree-show-invites-unfolded {
 	background-image: url(../images/unfolded-widescreen-web-crop.png)
 }
+
+	/*  posters  */
 
 .degree-show-posters {
 	background-image: url(../images/poster-pink-widescreen-web-crop.png);
@@ -283,8 +291,28 @@ video {
 	background-image: url(../images/poster-yellow-widescreen-web-crop.png)
 }
 
+	/*  dissertation infographic  */
+
 .ba-dissertation {
 	background-image: url(../images/communication-infographic-web.png);
+}
+
+	/*  final major project  */
+
+.fmp-tunnel {
+	background-image: url(../images/FMP-tunnel-web-crop.png);
+}
+
+	/*  food waste app  */
+
+.app-map {
+	background-image: url(../images/the-map-web-crop.png);
+}
+
+	/*  360 degree artwork  */
+
+.dream-state {
+	background-image: url(../images/dream-state-web-crop.png);
 }
 
 
