@@ -88,10 +88,11 @@ nav {
 }
 
 .nav-container a:hover {
-	color: #ef7216;
+	color: #ffffff;
 }
 
-.nav-container a:active {
+.nav-container a:active,
+.nav-container a:visited {
 	color: #482683;
 }
 
@@ -145,7 +146,7 @@ video {
 }
 
 .portfolio-item-image:hover {
-	opacity: 0.8;
+	opacity: 0.5;
 	
 	transition: opacity 0.5s ease-in-out;
 	-webkit-transition: opacity 0.5s ease-in-out;
@@ -205,6 +206,16 @@ video {
 	}
 } 
 
+.portfolio-image:hover {
+	opacity: 0.9;
+	
+	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+}
+
 .hover {
 	background-image: url(../images/hover-background.png);
 	/*min-height: 340px;*/
@@ -221,7 +232,7 @@ video {
 }
 
 .hover:hover {
-	opacity: 0.8;
+	opacity: 0.9;
 	
 	transition: opacity 0.5s ease-in-out;
 	-webkit-transition: opacity 0.5s ease-in-out;

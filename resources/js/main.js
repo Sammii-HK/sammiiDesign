@@ -29,28 +29,5 @@ $(document).ready(function() {
       lastScrollTop = scrollTop;
     }
   });
-	
-	/*var no=1;
-    $(window).scroll(function () {
-    	if(no==1) {
-            if ($(window).height() + $(window).scrollTop() == $(document).height()) {
-                no=2;
-                $.ajax({
-                    type: "POST",
-                    url: "portfolio-gallery.html",
-                    data: datas,
-                    cache: false,
-                    success: function(html){
-                    }
-                });
-            }
-        }
-    }); */
-	
-	$("#scrollableContent").scroll(function(){
-    if($("#scrollableContent").position().top + $("#scrollableContent").height() == $(window).height()){
-        //AJAX Call
-      $("#response").load("portfolio-gallery.html");
-    }
-});
+
 });
