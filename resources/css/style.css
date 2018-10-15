@@ -259,94 +259,94 @@ video {
 	/*  invites  */
 
 .degree-show-invites {
-	background-image: url(../images/unfolded-widescreen-web-crop.png);
+	background-image: url(../images/ds-invite/unfolded-widescreen-web-crop.png);
 }
 
 .degree-show-invites-fold {
-	background-image: url(../images/fold-widescreen-web-crop.png)
+	background-image: url(../images/ds-invite/fold-widescreen-web-crop.png)
 }
 
 .degree-show-invites-unfold {
-	background-image: url(../images/unfold-widescreen-web-crop.png)
+	background-image: url(../images/ds-invite/unfold-widescreen-web-crop.png)
 }
 
 .degree-show-invites-unfolded {
-	background-image: url(../images/unfolded-widescreen-web-crop.png)
+	background-image: url(../images/ds-invite/unfolded-widescreen-web-crop.png)
 }
 
 	/*  posters  */
 
 .degree-show-posters {
-	background-image: url(../images/poster-pink-widescreen-web-crop.png);
+	background-image: url(../images/ds-poster/poster-pink-widescreen-web-crop.png);
 }
 
 .degree-show-posters-cyan {
-	background-image: url(../images/poster-blue-widescreen-web-crop.png)
+	background-image: url(../images/ds-poster/poster-blue-widescreen-web-crop.png)
 }
 
 .degree-show-posters-magenta {
-	background-image: url(../images/poster-pink-widescreen-web-crop.png)
+	background-image: url(../images/ds-poster/poster-pink-widescreen-web-crop.png)
 }
 
 .degree-show-posters-yellow {
-	background-image: url(../images/poster-yellow-widescreen-web-crop.png)
+	background-image: url(../images/ds-poster/poster-yellow-widescreen-web-crop.png)
 }
 
 	/*  dissertation infographic  */
 
 .ba-dissertation {
-	background-image: url(../images/communication-infographic-web.png);
+	background-image: url(../images/infographic/communication-infographic-web.png);
 }
 
 	/*  final major project  */
 
 .fmp-tunnel {
-	background-image: url(../images/FMP-tunnel-web-crop.png);
+	background-image: url(../images/fmp/FMP-tunnel-web-crop.png);
 }
 
 	/*  food waste app  */
 
 .app-map {
-	background-image: url(../images/the-map-widescreen-web-crop-noText.png);
+	background-image: url(../images/wasteless/the-map-widescreen-web-crop-noText.png);
 }
 
 .app-map-full {
-	background-image: url(../images/full-map-widescreen-web-crop.png);
+	background-image: url(../images/wasteless/full-map-widescreen-web-crop.png);
 }
 
 .app-draft {
-	background-image: url(../images/app-draft-design.jpg);
+	background-image: url(../images/wasteless/app-draft-design.jpg);
 }
 
 .app-sketch {
-	background-image: url(../images/interface-sketch.jpg);
+	background-image: url(../images/wasteless/interface-sketch.jpg);
 }
 
 .app-dev-1 {
-	background-image: url(../images/development-boards_Page_1.png);
+	background-image: url(../images/wasteless/development-boards_Page_1.png);
 }
 
 .app-dev-2 {
-	background-image: url(../images/development-boards_Page_2.png);
+	background-image: url(../images/wasteless/development-boards_Page_2.png);
 }
 
 .app-dev-3 {
-	background-image: url(../images/development-boards_Page_3.png);
+	background-image: url(../images/wasteless/development-boards_Page_3.png);
 }
 
 .app-dev-4 {
-	background-image: url(../images/development-boards_Page_4.png);
+	background-image: url(../images/wasteless/development-boards_Page_4.png);
 }
 
 .app-dev-5 {
-	background-image: url(../images/development-boards_Page_5.png);
+	background-image: url(../images/wasteless/development-boards_Page_5.png);
 }
 
 
 	/*  360 degree artwork  */
 
 .dream-state {
-	background-image: url(../images/dream-state-web-crop.png);
+	background-image: url(../images/ma/dream-state-web-crop.png);
 }
 
 
