@@ -350,19 +350,47 @@ video {
 }
 
 .ma-1 {
-	background-image: url(../images/ma/_0001_Dream State.jpg);
+	background-image: url(../images/ma/0001_Dream-State.jpg);
 }
 
 .ma-2 {
-	background-image: url(../images/ma/_0002_Allan Poe.jpg);
+	background-image: url(../images/ma/0002_Allan-Poe.jpg);
 }
 
 .ma-3 {
-	background-image: url(../images/ma/_0003_Six Minutes.jpg);
+	background-image: url(../images/ma/0003_Six-Minutes.jpg);
 }
 
 .ma-4 {
-	background-image: url(../images/ma/_0000_Wordsworth.jpg);
+	background-image: url(../images/ma/0000_Wordsworth.jpg);
+}
+
+.ma-5 {
+	background-image: url(../images/ma/void-view.jpg);
+}
+
+.ma-6 {
+	background-image: url(../images/ma/ma-6.jpg);
+}
+
+.ma-7 {
+	background-image: url(../images/ma/ma-7.jpg);
+}
+
+.ma-8 {
+	background-image: url(../images/ma/ma-8.jpg);
+}
+
+.ma-9 {
+	background-image: url(../images/ma/ma-9.jpg);
+}
+
+.ma-10 {
+	background-image: url(../images/ma/ma-10.jpg);
+}
+
+.ma-11 {
+	background-image: url(../images/ma/ma-11.jpg);
 }
 
 
