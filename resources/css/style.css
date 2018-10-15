@@ -310,6 +310,39 @@ video {
 	background-image: url(../images/the-map-web-crop.png);
 }
 
+.app-map-full {
+	background-image: url(../images/full-map-widescreen-web-crop.png);
+}
+
+.app-draft {
+	background-image: url(../images/app-draft-design.jpg);
+}
+
+.app-sketch {
+	background-image: url(../images/interface-sketch.jpg);
+}
+
+.app-dev-1 {
+	background-image: url(../images/development-boards_Page_1.png);
+}
+
+.app-dev-2 {
+	background-image: url(../images/development-boards_Page_2.png);
+}
+
+.app-dev-3 {
+	background-image: url(../images/development-boards_Page_3.png);
+}
+
+.app-dev-4 {
+	background-image: url(../images/development-boards_Page_4.png);
+}
+
+.app-dev-5 {
+	background-image: url(../images/development-boards_Page_5.png);
+}
+
+
 	/*  360 degree artwork  */
 
 .dream-state {
