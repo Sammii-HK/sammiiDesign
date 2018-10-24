@@ -128,8 +128,6 @@ video {
 	flex-wrap: wrap;
 }
 
-
-
 .portfolio-item-image {
 	width: 100%;
 	height: auto;
@@ -199,19 +197,19 @@ video {
 
 @media only screen and (max-width: 600px) {
 	.portfolio-image {
-		max-height: 350px;
+		max-height: 250px;
 	}
 }
-
+/*
 @media only screen and (max-width: 768px) {
 	.portfolio-image {
 		max-height: 400px;
 	}
-}
+}*/
 
 @media only screen and (max-width: 1024px) {
 	.portfolio-image {
-		max-height: 450px;
+		max-height: 400px;
 	}
 }
 
