@@ -40,12 +40,12 @@ p {
 
 a:hover {
 	text-decoration: none;
-	color: #ef7216;
+	color: #fff;
 }
 
 a:active,
 .active {
-	color: #399bd1;
+	color: #fff;
 }
 
 
@@ -538,6 +538,6 @@ footer ul {
 }
 
 footer a {
-	color: #fff;
+	color: #14ffc0;
 	font-weight: 400;
 }
