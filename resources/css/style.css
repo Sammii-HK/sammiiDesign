@@ -17,6 +17,9 @@ body {
 	padding: 0;
 	/*padding-top: 30px;*/
 	margin: auto;
+	
+
+	/*width: 100%;*/
 }
 
 header {
@@ -182,12 +185,7 @@ video {
 	padding: 0;
 }
 
-@media only screen and (max-width: 300px) {
-	.portfolio-image {
-		height: 300px;
-	}
-}
-
+/*
 @media only screen and (max-width: 460px) {
 	.portfolio-image {
 		height: 350px;
@@ -210,7 +208,7 @@ video {
 	.portfolio-image {
 		height: 500px;
 	}
-} 
+} */
 
 .portfolio-image:hover {
 	/*opacity: 0.9;
@@ -506,10 +504,10 @@ video {
 
 .submit {
 	border-radius: 8px;
-	background-color: #ef7216;
+	background-color: #14ffc0;
 	color: #fff;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-	transition: .5s box-shadow, .5s background-color;
+	transition: .5s box-shadow, .5s;
 	border: 0;
 	padding: .5rem;
 }
