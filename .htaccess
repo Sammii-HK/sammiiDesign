@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.domain.com [NC]
+RewriteRule ^(.*)$ http://domain.com/$1 [L,R=301,NC]
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+RewriteCond %{ENV:HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+
+ErrorDocument 404 /404page.html
