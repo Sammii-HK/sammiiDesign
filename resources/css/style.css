@@ -138,14 +138,14 @@ video {
 	margin-bottom: 15px;
 }
 
-
-@media only screen and (max-width: 600px) {
-	.portfolio-item-image {
-	height: 300px;
+/*
+@media only screen and (max-width: 60px) {
+	.portfolio-image {
+	max-height: 300px;
 	}
 }
 
-/*
+
 @media only screen and (max-width: 768px) {
 	.portfolio-item-image {
 	height: 190px;
@@ -197,21 +197,21 @@ video {
 }
 
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 600px) {
 	.portfolio-image {
-		height: 350px;
+		max-height: 350px;
 	}
 }
 
 @media only screen and (max-width: 768px) {
 	.portfolio-image {
-		height: 400px;
+		max-height: 400px;
 	}
 }
 
 @media only screen and (max-width: 1024px) {
 	.portfolio-image {
-		height: 450px;
+		max-height: 450px;
 	}
 }
 
