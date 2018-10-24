@@ -185,7 +185,7 @@ video {
 	padding: 0;
 }
 
-/*
+
 @media only screen and (max-width: 460px) {
 	.portfolio-image {
 		height: 350px;
@@ -208,7 +208,7 @@ video {
 	.portfolio-image {
 		height: 500px;
 	}
-} */
+} 
 
 .portfolio-image:hover {
 	/*opacity: 0.9;
