@@ -38,6 +38,10 @@ p {
 	color: #101010;
 }
 
+a {
+	color: #482683;
+}
+
 a:hover {
 	text-decoration: none;
 	color: #fff;
@@ -46,6 +50,10 @@ a:hover {
 a:active,
 .active {
 	color: #fff;
+}
+
+.link {
+	color: #14ffc0;
 }
 
 
@@ -80,21 +88,19 @@ nav {
 	margin: 0;
 }
 
-.nav-container a {
-	color: #101010;
+.nav-container a {	
 	display: flex;
 	align-items: center;
 	font-weight: 600;
 }
 
-.nav-container a:hover {
+/*.nav-container a:hover {
 	color: #ffffff;
 }
 
-.nav-container a:active,
-.nav-container a:visited {
+.nav-container a:active {
 	color: #482683;
-}
+}*/
 
 
 /*  main banner  */
