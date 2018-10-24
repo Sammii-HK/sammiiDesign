@@ -247,7 +247,8 @@ video {
 	padding: 1rem;
 }
 
-.hover:hover {
+.hover:hover,
+.hover:active {
 	opacity: 0.8;
 	
 	transition: opacity 0.5s ease-in-out;
