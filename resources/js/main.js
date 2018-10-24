@@ -14,7 +14,8 @@ $(document).ready(function() {
 	dots: true,
 	infinitite: true,
 	fade: true,
-	cssEase: 'linear'
+	cssEase: 'linear',
+	mobileFirst: true
   });
 	
   var lastScrollTop = 0;
@@ -29,5 +30,6 @@ $(document).ready(function() {
       lastScrollTop = scrollTop;
     }
   });
+	
 
 });
