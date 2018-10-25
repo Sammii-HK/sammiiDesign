@@ -505,7 +505,11 @@ video {
 	display: flex;
 	justify-content: space-around;
 	padding: 100px 20px 50px 20px;
-	width: 100%;
+	width: 99%;
+}
+
+.icon-container a:hover {
+	color: #14ffc0;
 }
 
 /*.icon {
