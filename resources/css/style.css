@@ -504,8 +504,14 @@ video {
 .icon-container {
 	display: flex;
 	justify-content: space-around;
-	padding: 100px 20px 50px 20px;
+	padding: 200px 20px 100px 20px;
 	width: 99%;
+}
+
+@media only screen and (max-width: 800px) {
+	.icon-container {
+		padding: 100px 20px 50px 20px;
+	}
 }
 
 .icon-container a:hover {
