@@ -505,12 +505,13 @@ video {
 	display: flex;
 	justify-content: space-around;
 	padding: 100px 20px 50px 20px;
+	width: 100%;
 }
 
 /*.icon {
 	height: 45px;
 	width: auto;
-}*/
+}
 
 .contact input {
 	display: flex;
@@ -540,7 +541,7 @@ video {
 	color: #fff;
 }
 
-/*.submit:active {
+.submit:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
 }*/
 
