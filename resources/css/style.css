@@ -501,6 +501,17 @@ video {
 	padding-bottom: 50px;
 }
 
+.icon-container {
+	display: flex;
+	justify-content: space-around;
+	padding: 100px 20px 50px 20px;
+}
+
+/*.icon {
+	height: 45px;
+	width: auto;
+}*/
+
 .contact input {
 	display: flex;
 	justify-content: center;
