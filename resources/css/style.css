@@ -139,7 +139,7 @@ video {
 
 @media only screen and (max-width: 500px) {
 	.portfolio-item-image {
-	max-height: 100px;
+	height: 100px;
 	}
 }
 
@@ -188,7 +188,7 @@ video {
 
 .portfolio-image {
 	max-height: 100%;
-	height: 500px;
+	height: 550px;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
@@ -196,21 +196,35 @@ video {
 }
 
 
-@media only screen and (max-width: 600px) {
-	.portfolio-image {
-		max-height: 250px;
+/*
+@media only screen and (max-width: 500px) {
+	.portfolio-item-image {
+	height: 100px;
 	}
 }
-/*
+
+
+@media only screen and (max-width: 400px) {
+	.portfolio-image {
+		height: 150px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.portfolio-image {
+		height: 350px;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.portfolio-image {
 		max-height: 400px;
 	}
-}*/
+}
 
 @media only screen and (max-width: 1024px) {
 	.portfolio-image {
-		max-height: 400px;
+		height: 400px;
 	}
 }
 
@@ -218,7 +232,7 @@ video {
 	.portfolio-image {
 		height: 500px;
 	}
-} 
+} */
 
 .portfolio-image:hover {
 	/*opacity: 0.9;
