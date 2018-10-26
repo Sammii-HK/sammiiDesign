@@ -187,7 +187,8 @@ video {
 /*  portfolio carousel  */
 
 .portfolio-image {
-	height: 100%;
+	max-height: 100%;
+	height: 500px;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
