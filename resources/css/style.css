@@ -186,6 +186,40 @@ video {
 
 /*  portfolio carousel  */
 
+.portfolio-carousel {
+	wid
+}
+
+/* @media only screen and (max-width: 400px) {
+	.portfolio-carousel {
+		height: 150px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.portfolio-carousel {
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.portfolio-carousel {
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.portfolio-carousel {
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 1366px) {
+	.portfolio-carousel {
+		height: 500px;
+	}
+} */
+
 .portfolio-image {
 	max-height: 100%;
 	height: 550px;
@@ -224,7 +258,7 @@ video {
 	.portfolio-image {
 		height: 500px;
 	}
-} */
+} 
 
 .portfolio-image:hover {
 	/*opacity: 0.9;
