@@ -13,6 +13,11 @@ body {
 	margin: 0;
 }
 
+.slick-slider {
+touch-action: auto;
+-ms-touch-action: auto;
+}
+
 .container {
 	padding: 0;
 	/*padding-top: 30px;*/
@@ -232,7 +237,7 @@ video {
 
 @media only screen and (max-width: 400px) {
 	.portfolio-image {
-		height: 150px;
+		height: 125px;
 	}
 }
 
