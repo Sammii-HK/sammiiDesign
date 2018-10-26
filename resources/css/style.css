@@ -187,7 +187,8 @@ video {
 /*  portfolio carousel  */
 
 .portfolio-carousel {
-	wid
+	width: auto;
+	height: auto;
 }
 
 /* @media only screen and (max-width: 400px) {
