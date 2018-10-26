@@ -232,7 +232,7 @@ video {
 
 @media only screen and (max-width: 400px) {
 	.portfolio-image {
-		height: 125px;
+		height: 100px;
 	}
 }
 
