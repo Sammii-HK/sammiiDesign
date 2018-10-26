@@ -3,19 +3,21 @@
 
 $(document).ready(function() {
   $('.portfolio-carousel').slick({
-    slidesToShow: 1,
- 	slidesToScroll: 1,
- 	autoplay: true,
- 	autoplaySpeed: 4000,
-	arrows: false,
-    draggable: true,
-    pauseOnFocus: true,
-    pauseOnHover: true,
-	dots: true,
-	infinitite: true,
-	fade: true,
-	cssEase: 'linear',
-	mobileFirst: true
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  autoplay: true,
+	  autoplaySpeed: 4000,
+	  arrows: false,
+	  draggable: true,
+	  pauseOnFocus: true,
+	  pauseOnHover: true,
+	  dots: true,
+	  infinitite: true,
+	  fade: true,
+	  cssEase: 'linear',
+	  mobileFirst: true,
+	  adaptiveHeight: true
+	 
   });
 	
   var lastScrollTop = 0;

@@ -28,6 +28,10 @@ body {
 	align-items: center;
 }
 
+.jumbotron {
+	background-color: #fff;
+}
+
 header {
 	margin: 0;
 	padding: 0;
@@ -223,10 +227,11 @@ video {
 
 .portfolio-image {
 	max-height: 100%;
-	height: 550px;
+	height: auto;
 	width: 100%;
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
+	background-repeat: no-repeat;
 	padding: 0;
 }
 
