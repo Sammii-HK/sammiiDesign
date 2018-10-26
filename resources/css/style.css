@@ -13,11 +13,6 @@ body {
 	margin: 0;
 }
 
-.slick-slider {
-touch-action: auto;
--ms-touch-action: auto;
-}
-
 .container {
 	padding: 0;
 	/*padding-top: 30px;*/
