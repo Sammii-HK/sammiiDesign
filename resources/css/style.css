@@ -327,9 +327,15 @@ video {
 	}
 }
 
+@media only screen and (max-width: 575px) {
+	.portfolio-mob-image {
+	margin-bottom: 15px;
+	}
+}
+
 @media only screen and (max-width: 813px) {
 	.portfolio-mob-image {
-	height: 150px;
+	height: 200px;
 	}
 } 
 
