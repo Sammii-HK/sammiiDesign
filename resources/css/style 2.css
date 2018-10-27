@@ -88,6 +88,7 @@ nav {
 .nav-container {
 	padding: 0;
 	margin: 0;
+	/*position: fixed;*/
 	z-index: 100;
 }
 
@@ -105,6 +106,14 @@ nav {
 	align-items: center;
 	font-weight: 500;
 }
+
+/*.nav-container a:hover {
+	color: #ffffff;
+}
+
+.nav-container a:active {
+	color: #482683;
+}*/
 
 
 /*  main banner  */
@@ -134,8 +143,9 @@ video {
 	height: auto;
 	background-size: cover;
 	background-position: center;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
+
 
 @media only screen and (max-width: 500px) {
 	.portfolio-item-image {
@@ -160,8 +170,17 @@ video {
 	.portfolio-item-image {
 	height: 215px;
 	}
-}*/
+}
 
+.portfolio-item-image:hover {
+	opacity: 0.5;
+	
+	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+} */
 
 .portfolio-item-image h1 {
 	font-size: 3rem;
@@ -181,9 +200,11 @@ video {
 	height: auto;
 	padding: 0;
 	margin: 0;
+	
+	/*display: flex;*/
 }
 
-@media only screen and (max-width: 400px) {
+/*@media only screen and (max-width: 400px) {
 	.carousel-container {
 		height: 200px;
 	}
@@ -195,12 +216,11 @@ video {
 	}
 }
 
-@media only screen and (max-width: 813px) {
+@media only screen and (max-width: 768px) {
 	.carousel-container {
 		height: 400px;
-		display: none;
 	}
-} 
+} */
 
 @media only screen and (max-width: 1024px) {
 	.carousel-container {
@@ -233,12 +253,6 @@ video {
 	}
 }
 
-@media only screen and (max-width: 600px) {
-	.portfolio-carousel {
-		display: none;
-	}
-}
-
 @media only screen and (max-width: 1024px) {
 	.portfolio-carousel {
 		height: 400px;
@@ -249,7 +263,16 @@ video {
 	.portfolio-carousel {
 		height: 500px;
 	}
-} 
+} */
+
+
+/*.portfolio-mob-gallery {
+	width: 99%;
+	display: flex;
+	height: auto;
+	flex-wrap: wrap;
+	justify-content: center;
+} */
 
 .portfolio-mob-gallery {
 	display: flex;
@@ -264,6 +287,45 @@ video {
 	}
 }
 
+/*@media only screen and (max-width: 500px) {
+	.portfolio-mob-gallery {
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.portfolio-mob-gallery {
+		height: 200px;
+	}
+} */
+
+/* DUPLICATE .portfolio-item-image {
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 500px) {
+	.portfolio-item-image {
+	height: 100px;
+	}
+}
+
+
+@media only screen and (max-width: 769px) {
+	.portfolio-item-image {
+	height: 150px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.portfolio-item-image {
+	height: 175px;
+	}
+} */
 
 .portfolio-image {
 	/*max-height: 100%;*/
@@ -274,6 +336,17 @@ video {
 	background-repeat: no-repeat;
 	padding: 0;
 }
+
+/*.slick-slide {
+	width: auto;
+	height: auto;
+}
+
+.slick-list {
+	width: auto;
+	height: auto;
+} */
+
 
 @media only screen and (max-width: 400px) {
 	.portfolio-image {
@@ -305,6 +378,15 @@ video {
 	}
 } 
 
+/*.portfolio-image:hover {
+	opacity: 0.9;
+	
+	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+} */
 
 .portfolio-mob-image {
 	width: auto;
@@ -314,11 +396,13 @@ video {
 	margin-bottom: 30px;
 }
 
+
 @media only screen and (max-width: 300px) {
 	.portfolio-mob-image {
 	height: 75px;
 	}
 }
+
 
 @media only screen and (max-width: 400px) {
 	.portfolio-mob-image {
@@ -331,6 +415,7 @@ video {
 	height: 150px;
 	}
 } 
+
 
 .hover {
 	/*background-image: url(../images/hover-background.png);
