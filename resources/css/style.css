@@ -253,7 +253,7 @@ video {
 	}
 } */
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 813px) {
 	.portfolio-carousel {
 		display: none;
 	}
@@ -283,7 +283,7 @@ video {
 	justify-content: center;
 } 
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 813px) {
 	.portfolio-mob-gallery {
 		display: none;
 	}
@@ -362,7 +362,7 @@ video {
 	}
 } */
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 813px) {
 	.portfolio-image {
 		height: 400px;
 	}
@@ -412,7 +412,7 @@ video {
 	}
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 813px) {
 	.portfolio-mob-image {
 	height: 150px;
 	}
