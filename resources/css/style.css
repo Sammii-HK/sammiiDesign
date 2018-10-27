@@ -197,7 +197,6 @@ video {
 .carousel-container {
 	width: auto;
 	height: auto;
-	min-height: 300px;
 	padding: 0;
 	margin: 0;
 }
