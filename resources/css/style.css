@@ -135,6 +135,7 @@ video {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .portfolio-item-image {
@@ -199,9 +200,11 @@ video {
 	height: auto;
 	padding: 0;
 	margin: 0;
+	
+	/*display: flex;*/
 }
 
-@media only screen and (max-width: 400px) {
+/*@media only screen and (max-width: 400px) {
 	.carousel-container {
 		height: 200px;
 	}
@@ -217,7 +220,7 @@ video {
 	.carousel-container {
 		height: 400px;
 	}
-}
+} */
 
 @media only screen and (max-width: 1024px) {
 	.carousel-container {
@@ -254,6 +257,9 @@ video {
 	.portfolio-carousel {
 		display: none;
 	}
+	.carousel-container {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -269,27 +275,57 @@ video {
 }
 
 
-.portfolio-carousel-mobile {
+/*.portfolio-mobile {
+	width: 99%;
 	display: flex;
 	flex-direction: column;
 	height: auto;
+	flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 768px) {
-	.portfolio-carousel-mobile {
+	.portfoliol-mobile {
 		display: none;
 	}
 }
 
 @media only screen and (max-width: 500px) {
-	.portfolio-carousel-mobile {
+	.portfolio-mobile {
 		height: 300px;
 	}
 }
 
 @media only screen and (max-width: 400px) {
-	.portfolio-carousel-mobile {
+	.portfolio-mobile {
 		height: 200px;
+	}
+} */
+
+.portfolio-item-image {
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 500px) {
+	.portfolio-item-image {
+	height: 100px;
+	}
+}
+
+
+@media only screen and (max-width: 768px) {
+	.portfolio-item-image {
+	height: 150px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.portfolio-item-image {
+	height: 175px;
 	}
 }
 
@@ -303,7 +339,7 @@ video {
 	padding: 0;
 }
 
-.slick-slide {
+/*.slick-slide {
 	width: auto;
 	height: auto;
 }
@@ -311,7 +347,7 @@ video {
 .slick-list {
 	width: auto;
 	height: auto;
-}
+} 
 
 
 @media only screen and (max-width: 400px) {
@@ -324,7 +360,7 @@ video {
 	.portfolio-image {
 		height: 250px;
 	}
-}
+} */
 
 @media only screen and (max-width: 768px) {
 	.portfolio-image {
@@ -354,8 +390,8 @@ video {
     -o-transition: opacity 0.5s ease-in-out;
 } */
 
-.portfolio-index-image {
-	width: 100%;
+.portfolio-mob-image {
+	width: auto;
 	height: auto;
 	background-size: cover;
 	background-position: center;
@@ -363,24 +399,24 @@ video {
 }
 
 
-@media only screen and (max-width: 500px) {
-	.portfolio-index-image {
+@media only screen and (max-width: 300px) {
+	.portfolio-mob-image {
+	height: 75px;
+	}
+}
+
+
+@media only screen and (max-width: 400px) {
+	.portfolio-mob-image {
 	height: 100px;
 	}
 }
 
-
 @media only screen and (max-width: 768px) {
-	.portfolio-index-image {
+	.portfolio-mob-image {
 	height: 150px;
 	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.portfolio-index-image {
-	height: 350px;
-	}
-}
+} 
 
 
 .hover {
