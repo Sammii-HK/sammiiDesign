@@ -305,6 +305,9 @@ video {
 	}
 } 
 
+.mob-items {
+	padding-bottom: 50px;
+}
 
 .portfolio-mob-image {
 	width: auto;
