@@ -233,7 +233,7 @@ video {
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 813px) {
 	.portfolio-carousel {
 		display: none;
 	}
@@ -309,7 +309,8 @@ video {
 .portfolio-mob-image {
 	width: auto;
 	height: auto;
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-position: center;
 	margin-bottom: 30px;
 }
