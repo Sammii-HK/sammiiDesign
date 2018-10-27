@@ -275,13 +275,20 @@ video {
 }
 
 
-.portfolio-mob-gallery {
+/*.portfolio-mob-gallery {
 	width: 99%;
 	display: flex;
 	height: auto;
 	flex-wrap: wrap;
 	justify-content: center;
-} 
+} */
+
+.portfolio-mob-gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
 @media only screen and (min-width: 813px) {
 	.portfolio-mob-gallery {
@@ -301,7 +308,7 @@ video {
 	}
 } */
 
-.portfolio-item-image {
+/* DUPLICATE .portfolio-item-image {
 	width: 100%;
 	height: auto;
 	background-size: cover;
@@ -327,7 +334,7 @@ video {
 	.portfolio-item-image {
 	height: 175px;
 	}
-}
+} */
 
 .portfolio-image {
 	/*max-height: 100%;*/
@@ -395,7 +402,7 @@ video {
 	height: auto;
 	background-size: cover;
 	background-position: center;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 
