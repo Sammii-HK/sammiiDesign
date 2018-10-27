@@ -241,7 +241,7 @@ video {
 	margin: 0;
 }
 
-/*@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
 	.portfolio-carousel {
 		height: 200px;
 	}
@@ -251,12 +251,9 @@ video {
 	.portfolio-carousel {
 		height: 350px;
 	}
-} */
+} 
 
 @media only screen and (max-width: 813px) {
-	.portfolio-carousel {
-		display: none;
-	}
 	.carousel-container {
 		display: none;
 	}
