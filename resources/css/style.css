@@ -309,7 +309,7 @@ video {
 .portfolio-mob-image {
 	width: auto;
 	height: auto;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	margin-bottom: 30px;
