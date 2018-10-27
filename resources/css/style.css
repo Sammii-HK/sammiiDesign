@@ -126,6 +126,11 @@ video {
 
 /*  portfolio gallery  */
 
+.portfolio {
+	height: 400px;
+	width: auto;
+}
+
 .portfolio-gallery {
 	display: flex;
 	flex-direction: row;
@@ -192,38 +197,47 @@ video {
 
 .portfolio-carousel {
 	width: auto;
-	height: auto;
+	height: 400px;
+	padding: 0;
+	margin: 0;
 }
 
-/* @media only screen and (max-width: 400px) {
-	.portfolio-carousel {
-		height: 150px;
+.carousel-container {
+	width: auto;
+	height: 400px;
+	padding: 0;
+	margin: 0;
+}
+
+@media only screen and (max-width: 400px) {
+	.carousel-container {
+		height: 200px;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	.portfolio-carousel {
+	.carousel-container {
 		height: 350px;
 	}
 }
 
 @media only screen and (max-width: 768px) {
-	.portfolio-carousel {
+	.carousel-container {
 		height: 400px;
 	}
 }
 
 @media only screen and (max-width: 1024px) {
-	.portfolio-carousel {
+	.carousel-container {
 		height: 400px;
 	}
 }
 
 @media only screen and (max-width: 1366px) {
-	.portfolio-carousel {
+	.carousel-container {
 		height: 500px;
 	}
-} */
+}
 
 .portfolio-image {
 	max-height: 100%;
