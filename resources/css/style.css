@@ -251,6 +251,12 @@ video {
 	}
 } 
 
+@media only screen and (max-width: 2000px) {
+	.portfolio-carousel {
+		height: 550px;
+	}
+} 
+
 .portfolio-mob-gallery {
 	display: flex;
 	flex-direction: row;
