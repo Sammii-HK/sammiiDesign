@@ -17,7 +17,6 @@ body {
 	padding: 0;
 	/*padding-top: 30px;*/
 	margin: auto;
-	
 }
 
 .row {
@@ -49,6 +48,14 @@ h1 {
 p {
 	font-weight: 500;
 	color: #101010;
+}
+
+p a {
+	color: #14ffc0;
+}
+
+p a:hover {
+	color: #482683;
 }
 
 a {
@@ -208,7 +215,7 @@ video {
 	}
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) {
 	.carousel-container {
 		height: 500px;
 	}
@@ -245,15 +252,9 @@ video {
 	}
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) {
 	.portfolio-carousel {
 		height: 500px;
-	}
-} 
-
-@media only screen and (max-width: 2000px) {
-	.portfolio-carousel {
-		height: 550px;
 	}
 } 
 
@@ -305,7 +306,7 @@ video {
 	}
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) {
 	.portfolio-image {
 		height: 500px;
 	}
