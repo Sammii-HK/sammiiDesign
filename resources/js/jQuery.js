@@ -1,8 +1,14 @@
 // JavaScript Document
 
-$(document).ready(function() {
-    $('.hover').on('touchstart touchend', function(e) {
+/* $('.hover').on('touchstart', function (e) {
+    'use strict'; //satisfy code inspectors
+    var link = $(this); //preselect the link
+    if (link.hasClass('hover')) {
+        return true;
+    } else {
+        link.addClass('hover');
+        $('a.taphover').not(this).removeClass('hover');
         e.preventDefault();
-        $(this).toggleClass('hover_effect');
-    });
-});
+        return false; //extra, and to make sure the function has consistent return points
+    }
+}); */
