@@ -162,12 +162,12 @@ video {
 	height: 175px;
 	}
 }
-/*
-@media only screen and (max-width: 1366px) {
+
+@media only screen and (min-width: 1024px) {
 	.portfolio-item-image {
 	height: 215px;
 	}
-}*/
+}
 
 
 .portfolio-item-image h1 {
