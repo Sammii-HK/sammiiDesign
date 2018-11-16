@@ -69,7 +69,7 @@ a:hover {
 
 a:active,
 .active {
-	color: #3f2c33;
+	color: #676168;
 }
 
 .link {
@@ -86,7 +86,7 @@ a:active,
 }
 
 nav {
-	background-color: #f4f8e1;
+	background-color: #ffffef;
 	height: 50px;
 	display: flex;
 	align-items: center;
