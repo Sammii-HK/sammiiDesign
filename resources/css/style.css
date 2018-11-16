@@ -42,7 +42,7 @@ h1 {
 	padding-bottom: 35px;
 	font-weight: 700;
 	font-size: 1.5rem;
-	color: #482683;
+	color: #2b4e63;
 }
 
 p {
@@ -51,7 +51,7 @@ p {
 }
 
 p a {
-	color: #14ffc0;
+	color: #ac6a74;
 }
 
 p a:hover {
@@ -59,21 +59,21 @@ p a:hover {
 }
 
 a {
-	color: #482683;
+	color: #2b4e63;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #fff;
+	color: #ac6a74;
 }
 
 a:active,
 .active {
-	color: #fff;
+	color: #3f2c33;
 }
 
 .link {
-	color: #14ffc0;
+	color: #ac6a74;
 }
 
 
@@ -86,7 +86,7 @@ a:active,
 }
 
 nav {
-	background-color: #14ffc0;
+	background-color: #f4f8e1;
 	height: 50px;
 	display: flex;
 	align-items: center;
@@ -110,7 +110,7 @@ nav {
 .nav-container a {	
 	display: flex;
 	align-items: center;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 
@@ -411,7 +411,7 @@ video {
 .hover h1 {
 	font-size: 2rem;
 	font-weight: 700;
-	color: #482683; /*ef7216;*/
+	color: #3f2c33;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -679,14 +679,14 @@ video {
 }
 
 .icon-container a:hover {
-	color: #14ffc0;
+	color: #ac6a74;
 }
 
 
 /*  footer  */
 
 footer {
-	background-color: #482683;
+	background-color: #24363a;
 	height: 50px;
 	width: 100%;
 	display: flex;
@@ -703,7 +703,12 @@ footer ul {
 }
 
 footer a {
-	color: #14ffc0;
+	color: #f4f8e1;
+	font-weight: 400;
+}
+
+.activeFoot {
+	color: #babead;
 	font-weight: 400;
 }
 
