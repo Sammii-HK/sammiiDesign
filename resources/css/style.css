@@ -121,6 +121,35 @@ video {
 	height: auto;
 }
 
+.mobile-banner img {
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+	.desktop-banner {
+		display: inline flex;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.desktop-banner {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.mobile-banner {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.mobile-banner {
+		display: block;
+	}
+}
+
 
 /*  portfolio gallery  */
 
@@ -676,4 +705,10 @@ footer ul {
 footer a {
 	color: #14ffc0;
 	font-weight: 400;
+}
+
+.shift {
+	position: block;
+	padding-left: 10px;
+	padding-top: 5px; 
 }
