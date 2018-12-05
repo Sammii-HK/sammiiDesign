@@ -72,6 +72,11 @@ a:active,
 	color: #676168;
 }
 
+.active {
+	color: #babead;
+	font-weight: 400;
+}
+
 .link {
 	color: #ac6a74;
 }
@@ -86,7 +91,7 @@ a:active,
 }
 
 nav {
-	background-color: #ffffef;
+	background-color: #24363a;
 	height: 50px;
 	display: flex;
 	align-items: center;
@@ -110,7 +115,25 @@ nav {
 .nav-container a {	
 	display: flex;
 	align-items: center;
-	font-weight: 600;
+	font-weight: 350;
+	color: #f4f8e1
+}
+
+.nav-container a:hover,
+footer a:hover{
+	text-decoration: none;
+	color: #ac6a74;
+}
+
+.nav-container a:active,
+footer a:active{
+	text-decoration: none;
+	color: #676168;
+}
+
+footer a {
+	;
+	font-weight: 400;
 }
 
 
@@ -299,7 +322,6 @@ video {
 		display: none;
 	}
 }
-
 
 .portfolio-image {
 	/*max-height: 100%;*/
@@ -544,6 +566,10 @@ video {
 
 	/*  food waste app  */
 
+.app-screens {
+	background-image: url(../images/wasteless/WasteLess-UI.png);
+}
+
 .app-map {
 	background-image: url(../images/wasteless/the-map-widescreen-web-crop-noText.png);
 }
@@ -704,12 +730,7 @@ footer ul {
 
 footer a {
 	color: #f4f8e1;
-	font-weight: 400;
-}
-
-.activeFoot {
-	color: #babead;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .shift {
