@@ -72,11 +72,6 @@ a:active,
 	color: #676168;
 }
 
-.active {
-	color: #babead;
-	font-weight: 400;
-}
-
 .link {
 	color: #ac6a74;
 }
@@ -115,7 +110,7 @@ nav {
 .nav-container a {	
 	display: flex;
 	align-items: center;
-	font-weight: 350;
+	font-weight: 300;
 	color: #f4f8e1
 }
 
