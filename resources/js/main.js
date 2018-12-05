@@ -20,7 +20,7 @@ $(document).ready(function() {
 	 
   });
 	
-  var lastScrollTop = 0;
+  /*var lastScrollTop = 0;
   $(window).scroll(function(){
     var scrollTop = $(this).scrollTop();
     if (scrollTop - lastScrollTop > 50){
@@ -31,7 +31,7 @@ $(document).ready(function() {
       $('.navbar').animate({top: '0px'}, 50);
       lastScrollTop = scrollTop;
     }
-  });
+  }); */
 	
   //$('.hover').on('touchstart touchend', function(e) {
   //      e.preventDefault();
